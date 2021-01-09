@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+
+body {
+  background-color: #efeee9;
+  max-width: 100%;
+}
+
+header {
+  background-color: #efcac1;
+  border-radius: 15px;
+  margin: 10px 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Baloo Tamma 2', cursive;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 60px;
+  margin: 20px 20px 20px -200px;
+}
+
+h2 {
+  color: #5e6472;
+  font-family: 'Nixie One', cursive;
+  padding: 20px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+li {
+  color: #5e6472;
+  font-family: 'Nixie One', cursive;
+  padding: 20px;
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+a {
+  color: #5e6472;
+  font-family: 'Nixie One', cursive;
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+img {
+  display: inline-block;
+  width: 400px;
+  border-radius: 50%;
+  float: right;
+  margin: -100px 100px 100px 100px;
+}
+
+footer {
+  background-color: #efcac1;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  display: block;
+  font-family: 'Nixie One', cursive;
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+footer a {
+  color: white;
+}
+
+.assignments {
+   padding: 50px;
+}
