@@ -1,82 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap');
 
 body {
-  background-color: #efeee9;
+  background-color: #efcebd;
   max-width: 100%;
 }
 
 header {
-  background-color: #efcac1;
+  background-color: #2e3c3d;
   border-radius: 15px;
-  margin: 10px 20px;
+  margin: 20px;
+  padding: 15px;
 }
 
 h1 {
-  color: white;
-  text-align: center;
-  padding: 20px;
-  font-family: 'Baloo Tamma 2', cursive;
+  color: #e3a857;
+  padding: 10px;
+  font-family: 'Lilita One', cursive;
   text-transform: uppercase;
-  letter-spacing: 10px;
+  letter-spacing: 20px;
   font-size: 60px;
-  margin: 20px 20px 20px -200px;
+  margin: 30px;
 }
 
 h2 {
-  color: #5e6472;
-  font-family: 'Nixie One', cursive;
-  padding: 20px;
+  color: #525a53;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  padding: 0px 35px;
   text-transform: uppercase;
   letter-spacing: 10px;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 li {
-  color: #5e6472;
-  font-family: 'Nixie One', cursive;
-  padding: 20px;
+  color: #525a53;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  padding: 15px;
   letter-spacing: 5px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
   list-style-type: none;
 }
 
 a {
-  color: #5e6472;
-  font-family: 'Nixie One', cursive;
+  color: #525a53;
+  font-family: 'Alegreya Sans SC', sans-serif;
   letter-spacing: 5px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 img {
-  display: inline-block;
   width: 400px;
   border-radius: 50%;
   float: right;
-  margin: -100px 100px 100px 100px;
+  margin: -150px 100px 100px 100px;
+  box-shadow: 10px 10px 50px #404040;
 }
 
 footer {
-  background-color: #efcac1;
+  background-color: #2e3c3d;
   border-radius: 15px;
-  color: white;
+  color: #e3a857;
   text-align: center;
   padding: 20px;
   margin: 20px;
   display: block;
-  font-family: 'Nixie One', cursive;
+  font-family: 'Alegreya Sans SC', sans-serif;
   letter-spacing: 5px;
   font-size: 15px;
   font-weight: bold;
 }
 
-footer a {
-  color: white;
+footer a, span {
+  color: #e3a857;
+  font-size: 15px;
 }
 
 .assignments {
-   padding: 50px;
+   padding: 30px;
+}
+
+.pageUpdated {
+  font-size: 10px;
+  color: #e3a857;
 }
