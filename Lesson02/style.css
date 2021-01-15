@@ -4,7 +4,6 @@ body {
 
 h1 {
     color: #9d8189;
-    grid-row: 1;
     grid-column: 2;
     font-family: 'Comfortaa', cursive;
     padding: 20px;
@@ -35,8 +34,8 @@ h3 {
 
  .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 0.3fr 1fr 1fr;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     grid-column-gap: 15px;
     justify-items: center;
  }
