@@ -16,12 +16,16 @@ h2{
     grid-row: 2;
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
+    letter-spacing: 2px;
+    color: #706677;
 }
 
 h3 {
     grid-row: 3;
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
+    letter-spacing: 2px;
+    color: #706677;
 }
 
  img {
@@ -33,10 +37,13 @@ h3 {
  p{
      grid-row: 5;
      font-family: 'Roboto', sans-serif;
+     letter-spacing: 2px;
+     color: #706677;
  }
 
  a {
      text-decoration: none;
+     color: #706677;
  }
 
  .grid-container {
