@@ -63,6 +63,7 @@ h3 {
 
 .contrast {
     grid-column: 1;
+    margin: 20px;
 }
 
 .alignment {
