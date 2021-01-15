@@ -4,11 +4,20 @@ body {
 
 h1 {
     color: #9d8189;
+    grid-row: 1;
+}
+
+h2 {
+    grid-row: 2;
 }
  img {
      width: 50%;
      border-radius: 5px;
      grid-row: 3;
+ }
+
+ p{
+     grid-row: 4;
  }
 
  .grid-container {
