@@ -7,7 +7,7 @@ h1 {
     grid-row: 1;
     grid-column: 2;
     font-family: 'Comfortaa', cursive;
-
+    padding: 20px;
 }
 
 h2{
