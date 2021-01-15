@@ -6,8 +6,9 @@ h1 {
     color: #9d8189;
 }
  img {
-     width: 20%;
+     width: 50%;
      border-radius: 5px;
+     grid-row: 3;
  }
 
  .grid-container {
