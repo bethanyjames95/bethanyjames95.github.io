@@ -60,12 +60,6 @@ body {
     text-decoration: underline;
   }
   
-  .grid-container {  display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    justify-items: center;
-  }
-  
   .whiteSpace {
     grid-column: 2;
     margin: 0px;
