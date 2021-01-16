@@ -61,7 +61,7 @@ body {
   }
   
   .whiteSpace {
-    grid-column: 2;
+ 
     margin: 0px;
   }
   
@@ -70,12 +70,12 @@ body {
   }
   
   .contrast {
-    grid-column: 1;
+    
     margin: 0px;
   }
   
   .alignment {
-    grid-column: 3;
+   
     margin:0px;
   }
   
