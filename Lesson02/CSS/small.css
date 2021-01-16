@@ -39,7 +39,7 @@ h2 {
 }
 
 img {
-  width: 50%;
+  width: 55%;
   border-radius: 5px;
   box-shadow: 5px 10px 5px #888888;
   justify-content: center;
@@ -73,5 +73,5 @@ section {
 
 
 .whiteSpaceImg {
-  width: 53%;
+  width: 59%;
 }
