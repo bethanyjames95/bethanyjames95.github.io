@@ -1,7 +1,10 @@
 html {
   background-color: #565264;
   margin: 1px 80px;
-  padding: 10px 50px;
+}
+
+header {
+  padding: 20px;
 }
 
 body {
