@@ -30,7 +30,7 @@ h2 {
   letter-spacing: 2px;
   color: #706677;
   text-transform: uppercase;
-  text-align: justify;
+  text-align: center;
 }
 
 img {
@@ -55,7 +55,7 @@ a {
   letter-spacing: 2px;
   color: #706677;
   text-transform: uppercase;
-  text-align: justify;
+  text-align: center;
   color: #706677;
   padding: 15px;
   text-decoration: underline;
