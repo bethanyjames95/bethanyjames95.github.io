@@ -65,6 +65,7 @@ a {
   color: #706677;
   padding: 15px;
   text-decoration: underline;
+  display: block;
 }
 
 section {
@@ -84,6 +85,7 @@ footer a {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   margin:0px;
+  display: inline;
 }
 
 footer p {
@@ -93,6 +95,7 @@ footer p {
   color: #e6e6e6;
   text-align: center;
   font-family: "Roboto", sans-serif;
+  padding: 15px;
 }
 
 .page-updated {
