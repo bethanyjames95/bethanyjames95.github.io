@@ -41,7 +41,6 @@ body {
     box-shadow: 5px 10px 5px #888888;
     margin-left: auto;
     margin-right: auto;
-    
   }
   
   p {
@@ -60,7 +59,7 @@ body {
     letter-spacing: 2px;
     color: #706677;
     text-transform: uppercase;
-    text-decoration: none;
+    text-align: justify;
     color: #706677;
     padding: 15px;
     text-decoration: underline;
