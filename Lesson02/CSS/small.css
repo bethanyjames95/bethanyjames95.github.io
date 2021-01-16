@@ -66,24 +66,24 @@ a {
   display: block;
 }
 
-.whiteSpace {
+section {
   background-color: white;
   padding: 20px;
-  margin: 20px;
+  margin: 30px;
   border-radius: 15px;
 }
 
-.contrast {
+/*.contrast {
   background-color: white;
   padding: 20px;
-  margin: 20px;
+  margin: 30px;
   border-radius: 15px;
 }
 
 .alignment {
   background-color: white;
   padding: 20px;
-  margin: 20px;
+  margin: 30px;
   border-radius: 15px;
 }
 
