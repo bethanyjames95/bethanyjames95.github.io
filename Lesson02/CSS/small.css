@@ -68,7 +68,9 @@ a {
 
 .whiteSpace {
   background-color: white;
-  padding: 2px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
 }
 
 
