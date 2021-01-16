@@ -76,6 +76,25 @@ section {
   border-radius: 15px;
 }
 
+footer {
+  background-color:#353535;
+  border-radius: 15px;
+  color: #e6e6e6;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  display: block;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+footer a, span {
+  color: #F2F2F2;
+  font-size: 15px;
+}
+
 .whiteSpaceImg {
   width: 59%;
 }
