@@ -27,7 +27,6 @@ h1 {
   font-size: 60px;
   letter-spacing: 3px;
   text-align: center;
-  background-color: cadetblue;
 }
 
 h2 {
@@ -37,6 +36,7 @@ h2 {
   color: #706677;
   text-transform: uppercase;
   text-align: center;
+  background-color: cadetblue;
 }
 
 img {
