@@ -60,7 +60,6 @@ a {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   letter-spacing: 2px;
-  color: #706677;
   text-transform: uppercase;
   text-align: center;
   color: #706677;
@@ -81,7 +80,6 @@ footer {
   color: #e6e6e6;
   text-align: center;
   margin: 0px -40px;
-  display: block;
   font-family: 'Alegreya Sans SC', sans-serif;
   letter-spacing: 5px;
   font-size: 15px;
