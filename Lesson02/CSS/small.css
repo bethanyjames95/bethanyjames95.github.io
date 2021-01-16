@@ -4,76 +4,70 @@ html {
 }
 
 body {
-    background-color: #f8edeb;
-    margin: 10px;
-  }
-  
-  main {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    justify-items: center;
-  }
-  
-  h1 {
-    color: #565264;
-    grid-column: 2;
-    font-family: "Comfortaa", cursive;
-    padding: 15px;
-    font-size: 60px;
-    letter-spacing: 3px;
-    text-align: center;
-  }
-  
-  h2 {
-    grid-row: 2;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    letter-spacing: 2px;
-    color: #706677;
-    text-transform: uppercase;
-    text-align: justify;
-  }
-  
-  img {
-    width: 40%;
-    border-radius: 5px;
-    box-shadow: 5px 10px 5px #888888;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  p {
-    grid-row: 5;
-    font-family: "Roboto", sans-serif;
-    letter-spacing: 2px;
-    color: #706677;
-    padding: 25px 40px;
-    text-align: justify;
-  }
-  
-  a {
-    grid-row: 3;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-    letter-spacing: 2px;
-    color: #706677;
-    text-transform: uppercase;
-    text-align: justify;
-    color: #706677;
-    padding: 15px;
-    text-decoration: underline;
-    display: block;
-  }
-  
-  section {
-    background-color: white;
-  }
+  background-color: #f8edeb;
+  margin: 10px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  justify-items: center;
+}
+
+h1 {
+  color: #565264;
+  font-family: "Comfortaa", cursive;
+  padding: 15px;
+  font-size: 60px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #706677;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+img {
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 5px 10px 5px #888888;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  color: #706677;
+  padding: 25px 40px;
+  text-align: justify;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #706677;
+  text-transform: uppercase;
+  text-align: justify;
+  color: #706677;
+  padding: 15px;
+  text-decoration: underline;
+  display: block;
+}
+
+section {
+  background-color: white;
+  padding: 10px;
+}
 
 
-  .whiteSpaceImg {
-    width: 43%;
-  }
-  
-
-  
+.whiteSpaceImg {
+  width: 43%;
+}
