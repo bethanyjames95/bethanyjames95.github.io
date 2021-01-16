@@ -73,6 +73,19 @@ a {
   border-radius: 15px;
 }
 
+.contrast {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.alignment {
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 15px;
+}
 
 .whiteSpaceImg {
   width: 59%;
