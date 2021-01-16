@@ -27,6 +27,7 @@ h1 {
   font-size: 60px;
   letter-spacing: 3px;
   text-align: center;
+  background-color: cadetblue;
 }
 
 h2 {
@@ -67,20 +68,6 @@ a {
 }
 
 section {
-  background-color: white;
-  padding: 20px;
-  margin: 30px;
-  border-radius: 15px;
-}
-
-/*.contrast {
-  background-color: white;
-  padding: 20px;
-  margin: 30px;
-  border-radius: 15px;
-}
-
-.alignment {
   background-color: white;
   padding: 20px;
   margin: 30px;
