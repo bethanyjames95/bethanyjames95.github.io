@@ -59,7 +59,7 @@ h2 {
     text-transform: uppercase;
     padding: 20px;
     letter-spacing: 3px;
-    margin: 0px 0px 0px 20px;
+    margin: 0px;
    }
    
 h3 {
@@ -84,6 +84,7 @@ img {
 section {
     padding: 20px;
 }
+
 footer {
     background-color:#00303f;
 }
