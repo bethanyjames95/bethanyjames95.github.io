@@ -16,8 +16,8 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 7px;
     margin: 0px;
-    padding-top: 30px;
-    padding-left: 80px;
+    padding: 25px;
+    padding-bottom: 5px;
 }
 
 h2 {
@@ -31,16 +31,18 @@ p {
  font-family: 'Montserrat', sans-serif;
 }
 
-
+nav {
+    background-color: #00303f;
+}
 nav ul{
     list-style-type: none;
     margin: 20px 0px;
     padding: 0px;
     overflow: hidden;
+    width: 100%
 }
 
 nav li {
-    width: auto;
     float: left;
     display: inline;
     background-color: #00303f;
