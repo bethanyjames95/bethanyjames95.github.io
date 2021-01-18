@@ -1,18 +1,22 @@
 
 body {
     background-color: #fffdfb;
+    margin: 0px;
 }
 
 header {
-    margin: 40px;
     display: block;
+
+    padding: 40px;
+    text-align: center;
+    background-color: #145374;
 }
 
 h1 {
     color: #fffdfb;
     font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
-    background-color: #145374;
+    letter-spacing: 7px;
 }
 
 h2 {
@@ -24,7 +28,7 @@ p {
 }
 
 nav {
-    background-color: #145374;
+
 }
 
 ul{
@@ -35,6 +39,7 @@ ul{
 li {
     float: left;
     display: inline;
+    background-color: #00303f;
   }
   
   a {
@@ -42,4 +47,12 @@ li {
     padding: 8px;
     color: #e8e8e8;
     text-decoration: none;
+    font-size: larger;
+    letter-spacing: 3px;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .domain {
+    display: block;
   }
