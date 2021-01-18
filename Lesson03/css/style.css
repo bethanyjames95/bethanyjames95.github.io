@@ -6,7 +6,6 @@ body {
 
 header {
     display: block;
-
     padding: 40px;
     text-align: center;
     background-color: #145374;
@@ -21,10 +20,13 @@ h1 {
 
 h2 {
  color: black;
+ font-family: 'Montserrat', sans-serif;
+ text-transform: uppercase;
 }
 
 p {
  color: black;
+ font-family: 'Montserrat', sans-serif;
 }
 
 nav {
@@ -40,11 +42,10 @@ li {
     float: left;
     display: inline;
     background-color: #00303f;
+    padding: 15px;
   }
   
   a {
-    display: block;
-    padding: 8px;
     color: #e8e8e8;
     text-decoration: none;
     font-size: larger;
@@ -55,4 +56,10 @@ li {
   
   .domain {
     display: block;
+  }
+
+  .logo {
+    width: 80px;
+    float: left;
+    border-radius: 5px;
   }
