@@ -53,6 +53,9 @@ li a:hover {
     padding: 15px;
 }
 
+header h2 {
+    color: #e8e8e8;
+}
 h2 {
     color: black;
     font-family: 'Montserrat', sans-serif;
