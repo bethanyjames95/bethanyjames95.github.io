@@ -184,3 +184,23 @@ table {
     letter-spacing: 3px;
     font-size: 16px;
 }
+
+.table-background {
+    background-color: #d6e2e9;
+}
+
+.table-header {
+    background-color: #145374;
+}
+
+.table-primary-nav {
+    background-color: #00303f;
+}
+
+.table-nav-hover {
+    background-color: #fffdfb;
+}
+
+.table-footer {
+    background-color: #00303f;
+}
