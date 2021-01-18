@@ -115,12 +115,24 @@ table, th, td {
     font-size: 15px;
 }
 
+table {
+    color: #212529;
+    font-family: 'Padauk', sans-serif;
+    letter-spacing: 3px;
+    font-size: 16px;
+    text-align: left;
+}
 .logo {
     width: 60px;
     float: left;
     border-radius: 5px;
     margin: 5px;
     padding: 10px;
+}
+
+.table-head {
+    font-size: 15px;
+    font-weight: bolder;
 }
 
 .site-header {
