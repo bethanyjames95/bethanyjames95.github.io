@@ -20,19 +20,6 @@ h1 {
     padding-bottom: 5px;
 }
 
-h2 {
- color: black;
- font-family: 'Montserrat', sans-serif;
- text-transform: uppercase;
- padding: 0px 0px 0px 20px;
-}
-
-p {
- color: black;
- font-family: 'Montserrat', sans-serif;
- padding: 0px 0px 0px 20px;
-}
-
 nav {
     background-color: #00303f;
 }
@@ -65,11 +52,35 @@ li a:hover {
     color: #00303f;
     padding: 15px;
 }
-  
+
+h2 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 20px;
+    letter-spacing: 3px;
+   }
+   
+p {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 0px 0px 20px;
+    letter-spacing: 1px;
+   }
+   
 img {
     padding: 20px;
     width: 20%;
 }
+
+footer {
+    background-color:#00303f;
+}
+
+footer p {
+     color: #e8e8e8;
+}
+
   .domain {
     font-size: 20px;
   }
