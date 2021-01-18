@@ -1,18 +1,18 @@
-html {
-    background-color: #D9CDBF;
-}
 
 body {
-    background-color: #F2E8DC;
+    background-color: #fffdfb;
 }
 
 header {
-    background-color: #355B79;
+    margin: 40px;
+    display: block;
 }
 
 h1 {
-    color: #F2E8DC;
+    color: #fffdfb;
     font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    background-color: #145374;
 }
 
 h2 {
@@ -23,6 +23,23 @@ p {
  color: black;
 }
 
-ul {
-    text-decoration: none;
+nav {
+    background-color: #145374;
 }
+
+ul{
+    list-style-type: none;
+}
+
+
+li {
+    float: left;
+    display: inline;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    color: #e8e8e8;
+    text-decoration: none;
+  }
