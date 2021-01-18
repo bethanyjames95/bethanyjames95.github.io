@@ -73,17 +73,23 @@ img {
     width: 20%;
 }
 
+section {
+    padding: 20px;
+}
 footer {
     background-color:#00303f;
 }
 
 footer p {
      color: #e8e8e8;
+     padding: 20px;
+     margin: 0px;
+     text-align: center;
 }
 
-  .domain {
-    font-size: 20px;
-  }
+footer a {
+    color:#e8e8e8
+}
 
   .logo {
     width: 60px;
