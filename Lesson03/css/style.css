@@ -75,9 +75,9 @@ h3 {
 }
 p {
     color: #212529;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Padauk', sans-serif;
     padding: 0px 0px 0px 20px;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     font-size: 16px;
    }
    
@@ -99,16 +99,77 @@ footer p {
      padding: 20px;
      margin: 0px;
      text-align: center;
+     font-family: 'Padauk', sans-serif;
+     letter-spacing: 3px;
 }
 
 footer a {
-    color:#e8e8e8
+    color:#e8e8e8;
+    font-family: 'Padauk', sans-serif;
+    font-size: 16px;
 }
 
-  .logo {
+table, th, td {
+    border: 0.5px solid black;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.logo {
     width: 60px;
     float: left;
     border-radius: 5px;
     margin: 5px;
     padding: 10px;
-  }
+}
+
+.site-header {
+    color: #fffdfb;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 35px;
+    background-color: #00303f;
+}
+
+.site-nav {
+    background-color: #00303f;
+    color: #e8e8e8;
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-nav {
+    color: #e8e8e8;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Padauk', sans-serif;
+    background-color: #00303f;
+    letter-spacing: 3px;
+}
+
+.head2 {
+    color: #212529;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+.head3 {
+    color: #212529;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.par-text {
+    color: #212529;
+    font-family: 'Padauk', sans-serif;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
