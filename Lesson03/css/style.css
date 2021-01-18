@@ -7,20 +7,19 @@ body {
 }
 
 header {
-    background-color: #192E40;
+    background-color: #355B79;
 }
 
 h1 {
-    background-color: #192E40;
     color: #F2E8DC;
 }
 
 h2 {
-
+ color: black
 }
 
 p {
-
+ color: black;
 }
 
 ul {
