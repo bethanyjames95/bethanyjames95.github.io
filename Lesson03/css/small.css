@@ -8,6 +8,7 @@ header {
     padding: 0px;
     text-align: left;
     background-color: #145374;
+    margin: -25px 0px 0px 0px;
 }
 
 h1 {
@@ -84,6 +85,7 @@ p {
 img {
     padding: 20px;
     width: 20%;
+    display: block;
 }
 
 section {
@@ -92,6 +94,7 @@ section {
 
 footer {
     background-color:#00303f;
+    display: block;
 }
 
 footer p {
