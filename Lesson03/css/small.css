@@ -1,3 +1,8 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     background-color: #d6e2e9;
     margin: 0px;
@@ -92,7 +97,8 @@ img {
     display: block;
     margin-left: auto;
     width: 50%;
-    margin: 20px 20px 20px -60px;
+    align-items: start;
+    margin: 0px 220px 0px 0px;
 }
 
 section {
@@ -101,13 +107,15 @@ section {
 
 footer {
     background-color:#00303f;
-    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
 }
 
 footer p {
      color: #e8e8e8;
      padding: 20px;
-     margin: 0px;
      text-align: center;
      font-family: 'Padauk', sans-serif;
      letter-spacing: 3px;
@@ -119,19 +127,6 @@ footer a {
     font-size: 16px;
 }
 
-table, th, td {
-    border: 0.5px solid black;
-    padding: 10px;
-    font-size: 15px;
-}
-
-table {
-    color: #212529;
-    font-family: 'Padauk', sans-serif;
-    letter-spacing: 3px;
-    font-size: 16px;
-    text-align: left;
-}
 .logo {
     width: 60px;
     float: left;
@@ -142,10 +137,6 @@ table {
 .domain {
     display: block;
 }
-.table-head {
-    font-size: 15px;
-    font-weight: bolder;
-}
 
 .site-header {
     color: #fffdfb;
@@ -153,7 +144,7 @@ table {
     text-transform: uppercase;
     letter-spacing: 7px;
     font-size: 35px;
-    background-color: #00303f;
+    background-color: #145374;
 }
 
 .site-nav {
@@ -191,28 +182,26 @@ table {
 }
 
 .par-text {
+    width:70%;
     color: #212529;
     font-family: 'Padauk', sans-serif;
     letter-spacing: 3px;
     font-size: 16px;
 }
 
-.table-background {
-    background-color: #d6e2e9;
-}
-
-.table-header {
-    background-color: #145374;
-}
-
 .table-primary-nav {
+    width:70%;
     background-color: #00303f;
+    color: #d6e2e9;
 }
 
 .table-nav-hover {
+    width:70%;
     background-color: #fffdfb;
 }
 
 .table-footer {
+    width:70%;
     background-color: #00303f;
+    color: #d6e2e9;
 }
