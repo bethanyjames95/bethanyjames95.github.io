@@ -1,11 +1,9 @@
-html {
-    position: relative;
-    min-height: 100%;
-}
 
 body {
     background-color: #d6e2e9;
     margin: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 main {
@@ -13,6 +11,7 @@ main {
     grid-template-columns: auto;
     grid-template-rows: auto;
     justify-items: center;
+    padding-bottom: 30px;
 }
 
 header {
@@ -73,20 +72,21 @@ h2 {
     text-transform: uppercase;
     padding: 20px;
     letter-spacing: 3px;
-    margin: 0px;
-    font-size: 25px;
+    margin: 20px;
+    font-size: 45px;
    }
    
 h3 {
-    color: #212529;
+   
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     padding: 0px 0px 0px 20px;
     letter-spacing: 3px;
     font-size: 20px;
 }
+
 p {
-    color: #212529;
+    text-align: left;
     font-family: 'Padauk', sans-serif;
     padding: 0px 0px 0px 20px;
     letter-spacing: 3px;
@@ -107,10 +107,9 @@ section {
 
 footer {
     background-color:#00303f;
-    position: fixed;
     bottom: 0;
     width: 100%;
-    height: 65px;
+    padding: 10px;
 }
 
 footer p {
@@ -134,9 +133,6 @@ footer a {
     margin: 5px;
     padding: 10px;
 }
-.domain {
-    display: block;
-}
 
 .site-header {
     color: #fffdfb;
@@ -145,6 +141,8 @@ footer a {
     letter-spacing: 7px;
     font-size: 35px;
     background-color: #145374;
+    width:70%;
+    margin: 10px;
 }
 
 .site-nav {
@@ -153,16 +151,17 @@ footer a {
     letter-spacing: 3px;
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
+    width:70%;
+    margin: 10px;
 }
 
 .footer-nav {
     color: #e8e8e8;
-    padding: 20px;
-    margin: 0px;
-    text-align: center;
     font-family: 'Padauk', sans-serif;
     background-color: #00303f;
     letter-spacing: 3px;
+    width:70%;
+    margin: 10px;
 }
 
 .head2 {
@@ -171,6 +170,8 @@ footer a {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 25px;
+    width:70%;
+    margin: 10px;
 }
 
 .head3 {
@@ -179,6 +180,8 @@ footer a {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 20px;
+    width:70%;
+    margin: 10px;
 }
 
 .par-text {
@@ -187,21 +190,38 @@ footer a {
     font-family: 'Padauk', sans-serif;
     letter-spacing: 3px;
     font-size: 16px;
+    margin: 10px;
 }
 
 .table-primary-nav {
     width:70%;
     background-color: #00303f;
     color: #d6e2e9;
+    margin: 10px;
 }
 
 .table-nav-hover {
     width:70%;
     background-color: #fffdfb;
+    margin: 10px;
 }
 
 .table-footer {
     width:70%;
     background-color: #00303f;
     color: #d6e2e9;
+    margin: 10px;
+}
+
+.table-header {
+    width:70%;
+    background-color: #145374;
+    color: #d6e2e9;
+    margin: 10px;
+}
+
+.table-background {
+    width:70%;
+    background-color: #d6e2e9;
+    margin: 10px;
 }
