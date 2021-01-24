@@ -35,6 +35,7 @@ h1 {
 nav {
     background-color: #00303f;
 }
+
 nav ul{
     list-style-type: none;
     margin: 20px 0px;
@@ -87,7 +88,6 @@ h3 {
 
 p {
     text-align: left;
-    font-family: 'Padauk', sans-serif;
     padding: 0px 0px 0px 20px;
     letter-spacing: 3px;
     font-size: 16px;
@@ -126,6 +126,16 @@ footer a {
     font-size: 16px;
 }
 
+.typography {
+    width:70%;
+    color: #212529;
+    font-family: 'Padauk', sans-serif;
+    letter-spacing: 3px;
+    font-size: 16px;
+    margin: 10px;
+    border: solid black 1px;
+}
+
 .logo {
     width: 60px;
     float: left;
@@ -134,7 +144,7 @@ footer a {
     padding: 10px;
 }
 
-.site-header {
+.site-header-sample {
     color: #fffdfb;
     font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
@@ -145,7 +155,8 @@ footer a {
     margin: 10px;
 }
 
-.site-nav {
+
+.site-nav-sample {
     background-color: #00303f;
     color: #e8e8e8;
     letter-spacing: 3px;
@@ -153,18 +164,20 @@ footer a {
     font-family: 'Montserrat', sans-serif;
     width:70%;
     margin: 10px;
+    padding: 5px;
 }
 
-.footer-nav {
+.footer-nav-sample {
     color: #e8e8e8;
     font-family: 'Padauk', sans-serif;
     background-color: #00303f;
     letter-spacing: 3px;
     width:70%;
     margin: 10px;
+    padding: 5px;
 }
 
-.head2 {
+.head2-sample {
     color: #212529;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -174,7 +187,7 @@ footer a {
     margin: 10px;
 }
 
-.head3 {
+.head3-sample {
     color: #212529;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
@@ -184,7 +197,7 @@ footer a {
     margin: 10px;
 }
 
-.par-text {
+.par-text-sample {
     width:70%;
     color: #212529;
     font-family: 'Padauk', sans-serif;
