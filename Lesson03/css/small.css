@@ -82,9 +82,10 @@ p {
    }
    
 img {
-    padding: 20px;
-    width: 20%;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 section {
