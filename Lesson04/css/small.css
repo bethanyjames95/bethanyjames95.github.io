@@ -32,15 +32,45 @@ h1 {
     font-size: 35px;
 }
 
-nav {
-	margin: 0 auto;
-	max-width: 760px;
-	background-color: tomato;
-}
 .navigation {
-	list-style: none;
-	padding: 0;
+    background-color: #00303f;
+    display: flex;
+    flex-direction: column;
 }
+
+  nav ul{
+    list-style-type: none;
+    margin: 20px 0px;
+    padding: 0px;
+    overflow: hidden;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  nav li {
+    float: left;
+    display: inline;
+    background-color: #00303f;
+    padding: 15px;
+  }
+  
+  li a {
+    color: #e8e8e8;
+    text-decoration: none;
+    font-size: larger;
+    letter-spacing: 3px;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  li a:hover {
+    background-color: #e8e8e8;
+    color: #00303f;
+    padding: 15px;
+  }
+/* Small/Phone View ***************/
+
+
 .navigation li:first-child {
 	display: block;
 }
@@ -60,22 +90,13 @@ nav {
 	background-color: black;
 }
 
-.navigation {
-    background-color: #00303f;
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+  <ul class="navigation responsive">
+*/
+.responsive li {
+	display: block;
 }
 
-  .responsive li {
-      display: block;
-  }
-    
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown:hover {
-    display: block;
-}
 
 h2 {
     color: #212529;
