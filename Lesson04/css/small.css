@@ -158,8 +158,8 @@ footer {
 
 footer p {
     color: #e8e8e8;
-    padding: 20px;
-    text-align: center;
+    padding: 5px;
+    text-align: right;
     font-family: 'Padauk', sans-serif;
     letter-spacing: 3px;
 }
@@ -170,6 +170,18 @@ footer a {
     font-size: 16px;
 }
 
+.footerbar p{
+    display: block;
+    margin-top: 130px;
+    text-align: center;
+}
+
+.medialogo {
+    width: 50px;
+    display: inline;
+    margin: 10px;
+    float: right;
+}
 
 .logo {
     width: 90px;
