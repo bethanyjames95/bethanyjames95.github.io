@@ -1,29 +1,24 @@
 @media screen and (min-width: 32.5em) {
   
     main {
-    grid-template-columns: 1fr 1fr;
+     display: flex;
+     flex-direction: column;
+
   }
 
-  img {
-    float: right;
+  footer {
+   
   }
+
   .navigation {
     background-color: #00303f;
     display: flex;
-}
+ 
+  }
 
-  
-  .navigation li:first-child {
-    display: none;
-  }
-  
-  .navigation li {
-    display: block;
-    flex: 1 1 100%;
-  }
-  
   .navigation li a {
-    color: yellow;
+    color: #e8e8e8;
   }
+
   
 }
