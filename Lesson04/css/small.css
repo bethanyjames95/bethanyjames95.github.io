@@ -32,10 +32,37 @@ h1 {
     font-size: 35px;
 }
 
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+	background-color: tomato;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: black;
+	font-weight: 700;
+}
+.navigation a:hover {
+	color: white;
+	background-color: black;
+}
+
 .navigation {
     background-color: #00303f;
 }
-
 
   .responsive li {
       display: block;
@@ -49,6 +76,7 @@ h1 {
 .dropdown:hover {
     display: block;
 }
+
 h2 {
     color: #212529;
     font-family: 'Montserrat', sans-serif;
@@ -108,15 +136,6 @@ footer a {
     font-size: 16px;
 }
 
-.typography {
-    width:70%;
-    color: #212529;
-    font-family: 'Padauk', sans-serif;
-    letter-spacing: 3px;
-    font-size: 16px;
-    margin: 10px;
-    border: solid black 1px;
-}
 
 .logo {
     width: 60px;
@@ -126,97 +145,3 @@ footer a {
     padding: 10px;
 }
 
-.site-header-sample {
-    color: #fffdfb;
-    font-family: 'Quicksand', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 7px;
-    font-size: 35px;
-    background-color: #145374;
-    width:70%;
-    margin: 10px;
-}
-
-
-.site-nav-sample {
-    background-color: #00303f;
-    color: #e8e8e8;
-    letter-spacing: 3px;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    width:70%;
-    margin: 10px;
-    padding: 5px;
-}
-
-.footer-nav-sample {
-    color: #e8e8e8;
-    font-family: 'Padauk', sans-serif;
-    background-color: #00303f;
-    letter-spacing: 3px;
-    width:70%;
-    margin: 10px;
-    padding: 5px;
-}
-
-.head2-sample {
-    color: #212529;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 25px;
-    width:70%;
-    margin: 10px;
-}
-
-.head3-sample {
-    color: #212529;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 20px;
-    width:70%;
-    margin: 10px;
-}
-
-.par-text-sample {
-    width:70%;
-    color: #212529;
-    font-family: 'Padauk', sans-serif;
-    letter-spacing: 3px;
-    font-size: 16px;
-    margin: 10px;
-}
-
-.table-primary-nav {
-    width:70%;
-    background-color: #00303f;
-    color: #d6e2e9;
-    margin: 10px;
-}
-
-.table-nav-hover {
-    width:70%;
-    background-color: #fffdfb;
-    margin: 10px;
-}
-
-.table-footer {
-    width:70%;
-    background-color: #00303f;
-    color: #d6e2e9;
-    margin: 10px;
-}
-
-.table-header {
-    width:70%;
-    background-color: #145374;
-    color: #d6e2e9;
-    margin: 10px;
-}
-
-.table-background {
-    width:70%;
-    background-color: #d6e2e9;
-    margin: 10px;
-}
