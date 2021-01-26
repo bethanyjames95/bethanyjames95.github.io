@@ -32,41 +32,23 @@ h1 {
     font-size: 35px;
 }
 
-nav {
+.navigation {
     background-color: #00303f;
 }
 
-nav ul{
-    list-style-type: none;
-    margin: 20px 0px;
-    padding: 0px;
-    overflow: hidden;
-    width: 100%;
-    font-size: 16px;
-}
 
-nav li {
-    float: left;
-    display: inline;
-    background-color: #00303f;
-    padding: 15px;
+  .responsive li {
+      display: block;
   }
-  
-li a {
-    color: #e8e8e8;
-    text-decoration: none;
-    font-size: larger;
-    letter-spacing: 3px;
-    margin: 10px;
-    font-family: 'Montserrat', sans-serif;
+    
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
-li a:hover {
-    background-color: #e8e8e8;
-    color: #00303f;
-    padding: 15px;
+.dropdown:hover {
+    display: block;
 }
-
 h2 {
     color: #212529;
     font-family: 'Montserrat', sans-serif;
