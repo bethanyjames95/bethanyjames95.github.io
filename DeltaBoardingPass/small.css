@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    width: 30%;
+    width: 100%;
     box-shadow: -1px 3px 5px grey;
     border-radius: 25px;
     font-family: 'Roboto', sans-serif;
@@ -90,7 +90,6 @@ footer p {
 .flight-info {
     background-color: #f1f1f1;
     color: #959fa9;
-    padding: 0;
     margin: 0%;
     padding: 5% 10%;
 }
