@@ -28,17 +28,19 @@
     }
 
     .forecast-img {
-        display: inline;
+        display:;
         width: 100%;
     }
 
     .five-day-forecast {
         margin-bottom: 3%;
-        background-color: gray;
-        text-align: center;
+        background-color: #e8e8e8;
+        text-align: left;
     }
     
     .article {
         margin-top: 0%;
     }
+
+
 }

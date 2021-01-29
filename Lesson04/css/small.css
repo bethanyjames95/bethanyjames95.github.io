@@ -193,3 +193,6 @@ nav {
 .forecast-img {
     display: none;
 }
+.footer-bar p{
+    text-align: center;
+}
