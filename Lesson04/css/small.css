@@ -89,7 +89,7 @@ footer {
 footer p {
     color: #e8e8e8;
     padding: 5px;
-    text-align: right;
+    text-align: left;
     font-family: 'Padauk', sans-serif;
     letter-spacing: 3px;
 }
@@ -100,11 +100,6 @@ footer a {
     font-size: 16px;
 }
 
-.footerbar p{
-    display: block;
-    margin-top: 30px;
-    text-align: center;
-}
 
 .medialogo {
     width: 0px;
@@ -131,8 +126,8 @@ footer a {
 
 nav {
     margin: 0 auto;
-    max-width: 360px;
-    background-color: pink;
+    max-width: 100%;
+    background-color: #00303f;
 }
 
 .navigation {
@@ -140,6 +135,10 @@ nav {
     padding: 0;
     display: grid;
     grid-template-columns: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    font-size: small;
 }
 
 .navigation li:first-child {
@@ -158,17 +157,39 @@ nav {
 .navigation a:focus {
     display:block;
     padding: 0.75em;
-    text-align: left;
+    text-align: center;
     text-decoration: none;
-    color: black;
+    color: #e8e8e8;
     font-weight: bold;
 }
 
 .navigation a:hover {
-    color: white;
-    background-color: black;
+    color: #00303f;
+    background-color: #e8e8e8;
 }
 
 .navigation.responsive li {
     display: block;
+}
+
+.group {
+    padding: 0px;
+}
+
+.five-day-forecast {
+    margin-bottom: 0%;
+    background-color: gray;
+    text-align: center;
+}
+
+.article {
+    margin-top: -2px;
+}
+
+.contact-header {
+    text-transform: uppercase;
+}
+
+.forecast-img {
+    display: none;
 }

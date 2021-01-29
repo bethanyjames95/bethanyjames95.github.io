@@ -1,25 +1,44 @@
-@media only screen and (min-width:34.5em){
-  nav {
-      max-width: 100%;
-  }
+@media only screen and (min-width:34.5em) {
+    nav {
+        max-width: 100%;
+    }
 
-  .navigation {
-      grid-template-columns: repeat(7, auto);
-  }
+    .navigation {
+        grid-template-columns: repeat(7, auto);
+    }
 
-  .navigation li {
-      display: block;
-  }
+    .navigation li {
+        display: block;
+    }
 
-  .navigation a:link, 
-  .navigation a:visited, 
-  .navigation a:hover, 
-  .navigation a:active,
-  .navigation a:focus {
-      text-align: center;
-  }
+    .navigation a:link,
+    .navigation a:visited,
+    .navigation a:hover,
+    .navigation a:active,
+    .navigation a:focus {
+        text-align: center;
+    }
 
-  .navigation li:first-child{
-      display: none;
-  }
+    .navigation li:first-child {
+        display: none;
+    }
+
+    footer p {
+        text-align: right;
+    }
+
+    .forecast-img {
+        display: inline;
+        width: 100%;
+    }
+
+    .five-day-forecast {
+        margin-bottom: 3%;
+        background-color: gray;
+        text-align: center;
+    }
+    
+    .article {
+        margin-top: 0%;
+    }
 }
