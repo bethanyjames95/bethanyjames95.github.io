@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="/Lesson03/css/normalize.css" />
     <link rel="stylesheet" href="/Lesson04/css/small.css" />
     <link rel="stylesheet" href="/Lesson04/css/medium.css" />
-    <link rel="stylesheet" href="/Lesson04/css/large.css" />
     <script src="/JS/script.js"></script>
     <script src="/Lesson04/js/script.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@600&display=swap"
@@ -18,13 +17,15 @@
 
 <body>
     <header>
+        <section class="top-of-nav">
         <img class="logo" src="/Lesson03/img/logo-inverted.png" alt="logo">
         <h1>Rain or Shine Weather</h1>
         <p>Weather Is Our Middle Name</p>
+    </section>
         <div>
-            <nav class="dropdown">
+            <nav>
                 <ul class="navigation">
-                    <li><a class="menu-button" href="#" onclick="toggleMenu()">&#9776;</a></li>
+                    <li><a class="menu-button" href="#">&#9776;</a></li>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Preston</a></li>
                     <li><a href="#">Soda Springs</a></li>
@@ -45,40 +46,38 @@
             <p>Content</p>
         </section>
         <section class="group">
-        <section class="five-day-forecast">
-            <h3>Five Day Forecast</h3>
-            <img class="forecast-img" src="#" alt="Forecast image">
-            <img class="forecast-img src="#" alt="Forecast image">
-            <img class="forecast-img" src="#" alt="Forecast image">
-            <img class="forecast-img" src="#" alt="Forecast image">
-            <img class="forecast-img" src="#" alt="Forecast image">
+            <section class="five-day-forecast">
+                <h3>Five Day Forecast</h3>
+                <img class="forecast-img" src="#" alt="Forecast image">
+                <img class="forecast-img src=" #" alt="Forecast image">
+                <img class="forecast-img" src="#" alt="Forecast image">
+                <img class="forecast-img" src="#" alt="Forecast image">
+                <img class="forecast-img" src="#" alt="Forecast image">
+            </section>
+            <section class="article">
+                <h4>Article Title</h4>
+                <p>content</p>
+                <img class="forecast-img" src="#" alt="Forecast Image">
+            </section>
         </section>
-        <section class="article">
-            <h4>Article Title</h4>
-            <p>content</p>
-            <img class="forecast-img" src="#" alt="Forecast Image">
-        </section>
-    </section>
     </main>
     <footer>
         <section class="contact">
-        <p class="contact-header">Contact information</p>
-        <p>&#9993; jam16013@byui.edu</p>
-        <p>&#9743; (123) 456-7890</p>
+            <p class="contact-header">Contact information</p>
+            <p>&#9993; jam16013@byui.edu</p>
+            <p>&#9743; (123) 456-7890</p>
+        </section>
+        <section class="media">
+        <img class="social" src="/Lesson04/images/Facebook.png" alt="logo">
+        <img class="social" src="/Lesson04/images/Instagram.png" alt="logo">
+        <img class="social" src="/Lesson04/images/YouTube 2.png" alt="logo">
     </section>
-    <section class="map">
-        <img src="#" alt="map">
-    </section>
-        <img class="medialogo" src="/Lesson04/images/Facebook.png" alt="logo">
-        <img class="medialogo" src="/Lesson04/images/Instagram.png" alt="logo">
-        <img class="medialogo" src="/Lesson04/images/YouTube 2.png" alt="logo">
         <section class="footerbar">
-        <p>&copy;
-            <script> dynamicYear();</script> | Bethany James | <a href="#">Terms of Use</a>
-        </p>
-    </section>
+            <p>&copy;
+                <span id="date">Date: </span> | Bethany James | <a href="#">Terms of Use</a>
+            </p>
+        </section>
     </footer>
-    <script>toggleMenu();</script>
 </body>
 
 </html>

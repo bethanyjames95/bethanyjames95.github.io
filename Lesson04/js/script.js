@@ -7,5 +7,8 @@ window:addEventListener('load', ()=>{
 
     /* takes care of removing responsive if it gets turned on. We can run into problems with things. */
     window.onresize = ()=> {if(window.innerWidth>760) mainnav.classList.remove('responsive');};
+
+    let date = new Date("01/29/2021");
+    document.getElementById('date').innerHTML = date.toDateString();
 });
 

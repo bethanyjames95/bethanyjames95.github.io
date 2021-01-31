@@ -1,6 +1,15 @@
 @media only screen and (min-width:34.5em) {
+    .top-of-nav {
+        padding-left: 10%;
+    }
     nav {
         max-width: 100%;
+        padding-left: 10%;
+    }
+
+    main {
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .navigation {
@@ -23,6 +32,7 @@
         display: none;
     }
 
+
     footer p {
         text-align: right;
     }
@@ -41,6 +51,19 @@
     .article {
         margin-top: 0%;
     }
+
+    .social {
+        padding-left: 10%;
+        display: inline;
+        width: 5%;
+    }
+
+    .media {
+        display: block-inline;
+
+    }
+
+    
 
 
 }
