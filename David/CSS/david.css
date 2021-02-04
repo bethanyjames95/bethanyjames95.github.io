@@ -1,0 +1,42 @@
+h1 {
+    position: absolute;
+    color: white;
+    text-transform: uppercase;
+    bottom: 10px;
+    left: 160px;
+}
+
+p{
+    position: absolute;
+
+}
+
+img {
+    width: 50%;
+    display: inline;
+}
+.large-David {
+    position: relative;
+    width: 70%;
+}
+
+.smallimgs {
+    position: absolute;
+    bottom: -85%;
+    width: 15%;
+}
+
+.leftarrow {
+    position: absolute;
+    width: 5%;
+    top: 5%;
+    left: 2%;
+}
+
+.rightarrow {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    width: 5%;;
+}
+
