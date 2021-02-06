@@ -1,0 +1,242 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+body {
+    background-color: #d6e2e9;
+    margin: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+header {
+    display: block;
+    padding: 0%;
+    text-align: left;
+    background-color: #145374;
+    width: auto;
+}
+
+header p {
+    color:#e8e8e8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #fffdfb;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin: 0px;
+    padding: 25px;
+    padding-bottom: 5px;
+   
+}
+
+h2 {
+    color: #212529;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 20px;
+    letter-spacing: 3px;
+    margin: 20px;
+   
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 20px;
+    letter-spacing: 3px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 20px;
+    letter-spacing: 3px;
+}
+
+p {
+    text-align: left;
+    padding: 0px 0px 0px 20px;
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    width: 50%;
+    align-items: start;
+    margin: 0px 220px 0px 0px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: #00303f;
+    bottom: 0%;
+    width: 100%;
+
+}
+
+footer p {
+    color: #e8e8e8;
+    padding: 5px;
+    text-align: left;
+    font-family: 'Padauk', sans-serif;
+    letter-spacing: 3px;
+}
+
+footer a {
+    color: #e8e8e8;
+    font-family: 'Padauk', sans-serif;
+    font-size: 16px;
+}
+
+
+.medialogo {
+    width: 0px;
+    display: inline;
+    margin: 10px;
+    float: right;
+}
+
+.logo {
+    width: 90px;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+}
+
+.top-section,
+.weather-summary,
+.five-day-forecast,
+.article {
+    border: black 2px solid;
+    background-color: #e8e8e8;
+    margin: 10px;
+}
+
+div {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 0%;
+}
+
+nav {
+    margin-top: 10px;
+    max-width: 100%;
+    background-color: #00303f;
+    padding: 1px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.navigation li:first-child {
+    display: block;
+    font-size: large;
+}
+
+.navigation li {
+    display: none;
+}
+
+/* MUST BE IN THIS ORDER */
+.navigation a:link, 
+.navigation a:visited, 
+.navigation a:hover, 
+.navigation a:active,
+.navigation a:focus {
+    display:block;
+    padding: 0.75em;
+    text-align: center;
+    text-decoration: none;
+    color: #e8e8e8;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #00303f;
+    background-color: #e8e8e8;
+}
+
+.navigation.responsive li {
+    display: block;
+}
+
+.group {
+    padding: 0px;
+}
+
+.five-day-forecast {
+    margin-bottom: 0%;
+    background-color: gray;
+    text-align: center;
+}
+
+.article {
+    margin-top: -2px;
+}
+
+.contact-header {
+    text-transform: uppercase;
+}
+
+.forecast-img {
+    display: none;
+}
+
+.footerbar p{
+    text-align: center;
+}
+
+.media {
+    display: none;
+}
+
+.contact {
+    display: inline;
+}
+
+.friday-banner {
+    background-color: yellow;
+    opacity: 0.7;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    position: sticky;
+}
+
+.icon{
+    color: black;
+    display: inline;
+    font-size: xx-large;
+    text-align: center;
+}
+.park {
+    text-align: center;
+}
+.banner-main {
+    text-transform: uppercase;
+   text-align: center;
+}
+.close-banner {
+    float: right;
+    margin-top: -6%;
+}
