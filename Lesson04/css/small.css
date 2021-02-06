@@ -214,3 +214,29 @@ nav {
 .contact {
     display: inline;
 }
+
+.friday-banner {
+    background-color: yellow;
+    opacity: 0.7;
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    position: sticky;
+}
+
+.icon{
+    color: black;
+    display: inline;
+    font-size: xx-large;
+    text-align: ;
+}
+.park {
+    text-align: center;
+}
+.banner-main {
+    text-transform: uppercase;
+   text-align: center;
+}
+.close-banner {
+    float: right;
+    margin-top: -6%;
+}
