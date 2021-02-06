@@ -243,3 +243,7 @@ nav {
 .hero-img {
     width: 100%;
 }
+
+.table {
+    border: solid black 1px;
+}
