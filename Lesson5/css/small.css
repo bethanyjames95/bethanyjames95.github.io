@@ -35,7 +35,6 @@ h1 {
     margin: 0px;
     padding: 25px;
     padding-bottom: 5px;
-   
 }
 
 h2 {
@@ -239,4 +238,8 @@ nav {
 .close-banner {
     float: right;
     margin-top: -6%;
+}
+
+.hero-img {
+    width: 100%;
 }
