@@ -100,14 +100,15 @@ footer {
     background-color: #00303f;
     bottom: 0%;
     width: 100%;
+    padding: 0;
 }
 
 footer p {
     color: #e8e8e8;
-    padding: 5px;
-    text-align: center;
+    text-align: left;
     font-family: 'Padauk', sans-serif;
     letter-spacing: 3px;
+    padding: 0%;
 }
 
 footer a {
@@ -115,14 +116,6 @@ footer a {
     font-family: 'Padauk', sans-serif;
     font-size: 16px;
     text-align: center;
-}
-
-
-.medialogo {
-    width: 0px;
-    display: inline;
-    margin: 10px;
-    float: right;
 }
 
 .logo {
@@ -206,15 +199,14 @@ nav {
     text-transform: uppercase;
 }
 
-.contact p{
-    padding-left: 10%;
+.contact {
+    background-color: #145374;
+    margin-top: 5%;
+    margin-bottom: -5%;
+    color: #e8e8e8;
 }
 
 .forecast-img {
-    display: none;
-}
-
-.media {
     display: none;
 }
 
@@ -232,6 +224,7 @@ nav {
     font-size: xx-large;
     text-align: center;
 }
+
 .park {
     text-align: center;
 }
@@ -248,14 +241,17 @@ nav {
 }
 
 .map {
-    width: 50%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-
 .article-img {
     width: 60%;
     margin-left: 5%;
+}
+
+.social-icon {
+    display: none;
 }
