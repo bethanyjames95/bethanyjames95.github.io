@@ -40,7 +40,9 @@
     table {
         font-size: small;
         text-align: center;
+        border: none;
     }
+
     .five-day-forecast {
         margin-bottom: 3%;
         background-color: #e8e8e8;
@@ -59,6 +61,7 @@
     .article-img {
         width: 60%;
         margin-left: 3%;
+        float: ;
     }
 
     .social {
@@ -73,6 +76,4 @@
     }
 
     
-
-
 }

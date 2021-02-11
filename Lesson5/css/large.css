@@ -3,4 +3,16 @@
       width: 800px;
       margin:16px auto;
   }
+
+  .weather-summary {
+    background-color: #e8e8e8;
+    opacity: 0.8;
+    margin: 10px;
+    width: 22%;
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    border: none;
+    }
+
 }
