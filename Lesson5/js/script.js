@@ -12,3 +12,19 @@ window:addEventListener('load', ()=>{
     document.getElementById('date').innerHTML = date.toDateString();
 });
 
+function toggleMenu() {
+    let day = new Array(7);
+    day[0] = "Monday";
+    day[1] = "Tuesday";
+    day[2] = "Wednesday";
+    day[3] = "Thursday";
+    day[4] = "Friday";
+    day[5] = "Saturday";
+    day[6] = "Sunday";
+}
+
+if (day == 4) {
+    document.getElementsByClassName('friday-banner').style.display = "block";
+} else {
+    document.getElementsByClassName('friday-banner').style.display = "none";
+}

@@ -142,8 +142,9 @@ nav {
     margin-top: 10px;
     max-width: 100%;
     background-color: #00303f;
-    padding: 1px;
 }
+
+
 
 .navigation {
     list-style: none;
@@ -171,7 +172,7 @@ nav {
 .navigation a:active,
 .navigation a:focus {
     display:block;
-    padding: 0.75em;
+    padding: 2%;
     text-align: center;
     text-decoration: none;
     color: #e8e8e8;
@@ -254,4 +255,8 @@ nav {
 
 .social-icon {
     display: none;
+}
+
+.selected {
+    background-color: #145374;
 }
