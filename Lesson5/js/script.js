@@ -8,23 +8,48 @@ window:addEventListener('load', ()=>{
     /* takes care of removing responsive if it gets turned on. We can run into problems with things. */
     window.onresize = ()=> {if(window.innerWidth>760) mainnav.classList.remove('responsive');};
 
-    let date = new Date("01/29/2021");
-    document.getElementById('date').innerHTML = date.toDateString();
+
+
+    let dayname = [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+    ];
+    
+    let monthname = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ];
+
+    let d = new Date();
+    let dName = dayname[d.getDay()];
+    let dMonth = monthname[d.getMonth()];
+    let fulldate = dName + ", " + d.getDate() + " " + dMonth + " " + d.getFullYear();
+    let dYear = d.getFullYear();
+    
+    document.getElementById("date").textContent = fulldate;
+    document.getElementById("copy").textContent = dYear;
+
+    if ( dName == 'Friday'){
+        document.getElementById('pancake').style.display = "block";
+    }   
+    else {
+        document.getElementById('pancake').style.display = "none";
+    }
+
 });
 
-function toggleMenu() {
-    let day = new Array(7);
-    day[0] = "Monday";
-    day[1] = "Tuesday";
-    day[2] = "Wednesday";
-    day[3] = "Thursday";
-    day[4] = "Friday";
-    day[5] = "Saturday";
-    day[6] = "Sunday";
-}
-
-if (day == 4) {
-    document.getElementsByClassName('friday-banner').style.display = "block";
-} else {
-    document.getElementsByClassName('friday-banner').style.display = "none";
-}
