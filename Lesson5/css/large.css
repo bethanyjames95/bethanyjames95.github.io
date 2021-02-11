@@ -15,4 +15,17 @@
     border: none;
     }
 
+  th {
+    padding: 2%;
+    margin: 0;
+  }
+
+  .map {
+    width: 30%;
+    margin-top: -7%;
+  }
+
+  footer p{
+    text-align: center;
+  }
 }

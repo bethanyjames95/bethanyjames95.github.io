@@ -86,21 +86,24 @@
         padding: 1%;
         display: inline;
         width: 5%;
+       
     }
 
     .contact p{
         text-align: right;
         display: block;
+        margin-right: 7%;
     }
 
     .map {
         width: 40%;
         float: left;
         margin-top: -15%;
+        margin-left: 7%;
     }
 
     .media {
-        display: inline;
+        margin-right: 3%;
     }
 
     footer p{
