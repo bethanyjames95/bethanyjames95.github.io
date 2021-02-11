@@ -37,7 +37,10 @@
         text-align: right;
     }
 
-
+    table {
+        font-size: small;
+        text-align: center;
+    }
     .five-day-forecast {
         margin-bottom: 3%;
         background-color: #e8e8e8;
@@ -51,6 +54,11 @@
     
     .article {
         margin-top: 0%;
+    }
+    
+    .article-img {
+        width: 60%;
+        margin-left: 3%;
     }
 
     .social {
