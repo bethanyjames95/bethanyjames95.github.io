@@ -83,7 +83,7 @@ footer {
 footer p {
     color: #e8e8e8;
     padding: 5px;
-    text-align: left;
+    text-align: center;
     font-family: 'Padauk', sans-serif;
     letter-spacing: 3px;
 }
@@ -92,6 +92,7 @@ footer a {
     color: #e8e8e8;
     font-family: 'Padauk', sans-serif;
     font-size: 16px;
+    text-align: center;
 }
 
 
@@ -178,9 +179,10 @@ nav {
 
 .five-day-forecast {
     margin-bottom: 0%;
-    background-color: gray;
+    background-color: #ced4da;
     text-align: center;
 }
+
 
 .article {
     margin-top: -2px;
@@ -190,20 +192,17 @@ nav {
     text-transform: uppercase;
 }
 
+.contact p{
+    padding-left: 10%;
+}
+
 .forecast-img {
     display: none;
 }
 
-.footerbar p{
-    text-align: center;
-}
 
 .media {
     display: none;
-}
-
-.contact {
-    display: inline;
 }
 
 .friday-banner {
@@ -229,14 +228,14 @@ nav {
     margin-top: -6%;
 }
 
-.hero img {
-    max-width: 100px;
+.hero {
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .map {
-    width: 100%;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -244,4 +243,11 @@ nav {
 
 .table {
     border: solid black 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article-img {
+    width: 60%;
+    margin-left: 5%;
 }
