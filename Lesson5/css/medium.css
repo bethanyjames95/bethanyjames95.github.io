@@ -1,4 +1,4 @@
-@media only screen and (min-width:34.5em) {
+@media only screen and (min-width:42em) {
     .top-of-nav {
         padding-left: 10%;
     }
@@ -32,7 +32,6 @@
         display: none;
     }
 
-
     footer p {
         text-align: right;
     }
@@ -41,12 +40,23 @@
         font-size: small;
         text-align: center;
         border: none;
+        padding: 0;
+    }
+
+    .five-day-heading{
+        background-color:#d6e2e9;
+        text-align: center;
+    }
+
+    .remove-padding {
+        padding-bottom: 8%;
     }
 
     .five-day-forecast {
-        margin-bottom: 3%;
         background-color: #e8e8e8;
-        text-align: left;
+        text-align: center;
+        padding: 0;
+        border: 2px solid black;
     }
 
     .five-day-forecast img {
@@ -61,7 +71,7 @@
     .article-img {
         width: 60%;
         margin-left: 3%;
-        float: ;
+
     }
 
     .social {
@@ -72,8 +82,10 @@
 
     .media {
         display: block-inline;
-
     }
 
+    th {
+        padding: 3%
+    }
     
 }
