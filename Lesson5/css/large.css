@@ -1,8 +1,4 @@
-@media only screen and (min-width:54.5em){
-
-  main {
-    padding: auto;
-  }
+@media only screen and (min-width:78em){
 
   .navigation {
       width: 800px;
@@ -15,7 +11,7 @@
     margin: 10px;
     width: 22%;
     position: absolute;
-    top: 80%;
+    top: 60%;
     left: 15%;
     border: none;
     }
