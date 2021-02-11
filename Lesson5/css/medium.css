@@ -37,14 +37,16 @@
         text-align: right;
     }
 
-    .forecast-img {
-        width: 100%;
-    }
 
     .five-day-forecast {
         margin-bottom: 3%;
         background-color: #e8e8e8;
         text-align: left;
+    }
+
+    .five-day-forecast img {
+        width: 100%;
+        display: block;
     }
     
     .article {
