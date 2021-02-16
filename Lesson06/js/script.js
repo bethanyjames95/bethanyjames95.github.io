@@ -53,3 +53,8 @@ window:addEventListener('load', ()=>{
 
 });
 
+WebFont.load({
+    google: { 
+        families: ['Montserrat', 'Padauk', 'Quicksand']
+    }
+}); 
