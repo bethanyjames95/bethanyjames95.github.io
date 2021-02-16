@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/Lesson06/css/large.css" />
     <script src="/Lesson06/js/script.js"></script>
     <script src="/Lesson06/js/menu.js"></script>
+    <script src="/Lesson06/js/windchill.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand:wght@600&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Padauk&display=swap" rel="stylesheet">
@@ -58,10 +59,11 @@
             <h3>Weather Summary</h3>
             <h4>Today</h4>
             <p>Currently: Cloudy</p>
-            <p>High: 42F</p>
+            <p>High: <span id="temperature">52</span>℉</p> 
             <p>Low: 26F</p>
             <p>Humidity: 74%</p>
-            <p>Wind: 11 mph</p>
+            <p>Wind Chill: <span id="windChill"></span>℉</p>
+            <p>Wind Speed: <span id="windSpeed">12</span> mph</p>
             <p>Precipitation: 62%</p>
         </section>
         <section class="group">
@@ -111,9 +113,9 @@
             <p>&#9743; (123) 456-7890</p>
             <img class="map" src="/Lesson5/images/map.jpg" alt="">
             <section class="media">
-            <img class="social-icon" src="/Lesson04/images/Facebook.png" alt="logo">
-            <img class="social-icon" src="/Lesson04/images/Instagram.png" alt="logo">
-            <img class="social-icon" src="/Lesson04/images/YouTube 2.png" alt="logo">
+            <img class="social-icon" src="/Lesson04/images/Facebook.png" alt="Facebook logo">
+            <img class="social-icon" src="/Lesson04/images/Instagram.png" alt="Instagram logo">
+            <img class="social-icon" src="/Lesson04/images/YouTube 2.png" alt="Youtube logo">
             </section>
         </section>
     </main>
