@@ -5,3 +5,11 @@ function dynamicYear() {
 function lastModified() {
   document.write(document.lastModified);
 }
+
+WebFont.load({
+  google: {
+    families: [
+       'Lilita One'
+    ]
+  }
+});

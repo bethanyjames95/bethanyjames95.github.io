@@ -4,55 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lazy Loader Example</title>
+    <title>Lazy Loader Example 2</title>
     <style>
-        .loading {
+        img{
+            border: 5px solid red;
+            width: 400px;
+            height: 150px;
             background-color: lightgray;
-            min-width: 400px;
-            min-height: 400px;
-            position: relative;
         }
-        .placeholder-loading {
-            display: inline-block;
-            position: relative;
-            overflow: hidden;
-        }
-        .placeholder-loading::before{
-            content: "";
-            display: block;
-            position: absolute;
-            left: -400px;
-            top: 0;
-            height: 100%;
-            width: 400px;;
-            background: linear-gradient(to right, transparent 0%, #FFFFFF 50%, transparent 100%);
-            animation: load 3s;
-            z-index: 50;
-        }
-        @keyframes load {
-            0% {
-                left: -400%
-            }
-            100% {
-                left: 100%;
-            }
+        body{
+            margin-bottom: 500px;
         }
     </style>
     <script>
         // says after page has loaded
         window.addEventListener("load",(event)=>{
-            lazyLoad();
+            
+            const images = document.querySelectorAll("[data-src]");
+            //console.log(images);
+
+            function preloadImage(img){
+                console.log("trying to load"+img);
+                const src= img.getAttribute("data-src");
+                if(!src){
+                    return;
+                }
+                img.src = src;
+            }
+            const imgOptions = {
+                threshold:0,
+                rootMargin: "0px 0px 200px 0px"
+            }
+
+            const imgObserver = new IntersectionObserver( (entries, imgObserver)=> {
+                console.log(entries);
+                entries.forEach(entry=>{
+                    if(!entry.isIntersecting){
+                    return;
+                    }
+                    else {
+                    preloadImage(entry.target);
+                    imgObserver.unobserve(entry.target);
+                    }
+                })
+
+            }, imgOptions);
+            images.forEach(image=>{
+                imgObserver.observe(image);
+            });
+    
         });
 
-        //Once everything is loaded, we are going to place the information
-        // from fake data-src attribute to src attribute
-        function lazyLoad(){
-            const images = document.querySelectorAll("[data-src]");
-            for(const image of images){
-                image.src = image.getAttribute("data-src");
-            }
-            //console.log(images);
-        }
     </script>
 </head>
 <body>
