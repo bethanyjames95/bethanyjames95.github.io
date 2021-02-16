@@ -270,3 +270,7 @@ nav {
 .selected {
     background-color: #145374;
 }
+
+.banner {
+    width: 100%;
+}
