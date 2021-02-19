@@ -1,0 +1,41 @@
+body{
+    background-color: #212529;
+}
+h1 {
+    text-align: center;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 60px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:20px;
+    padding: 20px;
+}
+
+
+.loading {
+    background-color: white;
+    min-width: 400px;
+    min-height: 400px;
+    position: relative;
+}
+
+img:hover {
+    opacity: 0.8;
+}
+
+
+img[data-src] {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+  
+img {
+    filter: blur(0.2em);
+
+  }
