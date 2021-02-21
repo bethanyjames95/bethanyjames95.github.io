@@ -43,21 +43,8 @@ window:addEventListener('load', ()=>{
     
     document.getElementById("date").textContent = fulldate;
     document.getElementById("copy").textContent = dYear;
-
-    if ( dName == 'Friday'){
-        document.getElementById('pancake').style.display = "block";
-    }   
-    else {
-        document.getElementById('pancake').style.display = "none";
-    }
-
 });
 
-WebFont.load({
-    google: { 
-        families: ['Montserrat', 'Padauk', 'Quicksand']
-    }
-}); 
 
         // says after page has loaded
         window.addEventListener("load",(event)=>{
