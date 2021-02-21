@@ -161,4 +161,8 @@ img {
     position: relative;
     padding: 2%;
 }
+.placeholder-loading {
+    width:100%;
+    border: 2px solid lightgray;
+}
 
