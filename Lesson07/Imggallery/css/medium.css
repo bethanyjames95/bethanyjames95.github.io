@@ -36,9 +36,8 @@
     }
     .loading {
         background-color: white;
-        max-width: 90%;
-        position: relative;
-        padding: 2%;
+        width: 100%;
+     
     }
     
 }
