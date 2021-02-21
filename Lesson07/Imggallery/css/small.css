@@ -1,5 +1,6 @@
 main {
     display: grid;
+    grid-template-columns: 1fr;
 }
 
 body {
@@ -148,18 +149,15 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom:20px;
-    padding: 20px;
+    margin-bottom:5%;
+    margin-top: 5%;
 }
 
 
 .loading {
     background-color: white;
-    min-width: 400px;
-    min-height: 400px;
+    max-width: 100%;
     position: relative;
+    padding: 2%;
 }
 
-img:hover {
-    opacity: 0.8;
-}
