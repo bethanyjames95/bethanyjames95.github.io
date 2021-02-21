@@ -1,0 +1,56 @@
+@media only screen and (min-width:78em){
+
+    .navigation {
+        width: 800px;
+        margin:16px auto;
+    }
+  
+    .weather-summary {
+      background-color: #e8e8e8;
+      opacity: 0.8;
+      margin: 10px;
+      width: 22%;
+      position: absolute;
+      top: 60%;
+      left: 15%;
+      border: none;
+      }
+  
+    th {
+      padding: 2%;
+      margin: 0;
+    }
+  
+    .map {
+      width: 30%;
+      margin-top: -8%;
+      margin-left: 10%;
+    }
+  
+    .article p{
+      
+      display: inline-block;
+      width: 60%
+    }
+    .article-img {
+      width: 30%;
+      display: inline;
+  
+    }
+    .contact p{
+      margin-right: 10%;
+    }
+  
+    .media {
+      margin-right: 8%;
+    }
+  
+    .social-icon{
+      width: 3%;
+      margin-top: 0;
+    }
+  
+    footer p{
+      text-align: center;
+    }
+  }
