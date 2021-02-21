@@ -157,6 +157,7 @@ img {
 .loading {
     background-color: white;
     max-width: 100%;
+    max-height: 100%;
     position: relative;
     padding: 2%;
 }
