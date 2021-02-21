@@ -1,4 +1,4 @@
-main {
+.grid {
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -38,9 +38,10 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     padding: 20px;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     margin: 20px;
-   
+    text-align: center;
+    font-size: xx-large;
 }
 
 p {
