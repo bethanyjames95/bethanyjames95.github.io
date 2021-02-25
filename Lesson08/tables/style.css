@@ -58,7 +58,7 @@ body {
     margin: 0 5px;
 }
 
-tr.head {
+.users tr.head {
     background-color: #dbe4ea;
 }
 
@@ -86,7 +86,7 @@ tr:not(.head):hover {
 }
 
 /*how many it skips each time*/
-tr:nth-child(2n) {
+tr:nth-child(2n+1) {
     background-color: #f5f5f8;
 }
 
