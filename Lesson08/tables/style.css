@@ -112,3 +112,7 @@ tr:nth-child(2n+1) {
     color: #f3be16;
 }
 
+input {
+    background-color: black;
+    color: white;
+}
