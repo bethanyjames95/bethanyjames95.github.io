@@ -70,9 +70,15 @@ footer {
     .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0%;
     }
 
     img {
         max-width: 90%;
     }
+
+    section{
+        padding: 0;
+    }
+
 }
