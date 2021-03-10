@@ -24,7 +24,7 @@ header {
 }
 
 header p {
-    color:#e8e8e8;
+    color: #e8e8e8;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -45,7 +45,7 @@ h2 {
     padding: 20px;
     letter-spacing: 3px;
     margin: 20px;
-   
+
 }
 
 h3 {
@@ -67,22 +67,6 @@ p {
     padding: 0px 0px 0px 20px;
     letter-spacing: 3px;
     font-size: 16px;
-}
-
-table {
-    font-family: 'Montserrat', sans-serif;
-    padding: 20px;
-    font-size: small;
-    width: 100%;
-    background-color: gray;
-}
-
-th {
-    padding: 2%;
-}
-
-section {
-    padding: 20px;
 }
 
 footer {
@@ -120,30 +104,12 @@ nav {
     background-color: #00303f;
 }
 
-.five-day-heading{
-    padding: 5%;
-    padding-left: 10%;
-    background-color: gray;
-    margin-bottom: -2%;
-}
-.remove-padding{
-    padding: 0;
-    margin-left: 2%;
-    margin-right: 2%;
-}
 
 .logo {
     width: 90px;
     float: left;
     margin: 5px;
     padding: 10px;
-}
-
-.weather-summary,
-.article {
-    border: black 2px solid;
-    background-color: #e8e8e8;
-    margin: 10px;
 }
 
 .navigation {
@@ -166,12 +132,12 @@ nav {
 }
 
 /* MUST BE IN THIS ORDER */
-.navigation a:link, 
-.navigation a:visited, 
-.navigation a:hover, 
+.navigation a:link,
+.navigation a:visited,
+.navigation a:hover,
 .navigation a:active,
 .navigation a:focus {
-    display:block;
+    display: block;
     padding: 2%;
     text-align: center;
     text-decoration: none;
@@ -188,117 +154,33 @@ nav {
     display: block;
 }
 
-.group {
-    padding: 0px;
-}
 
-.article {
-    margin-top: -2px;
-}
+@media only screen and (min-width:42em) {
 
-.contact-header {
-    text-transform: uppercase;
-}
-
-.contact {
-    background-color: #145374;
-    margin-top: 5%;
-    margin-bottom: -5%;
-    color: #e8e8e8;
-}
-
-.forecast-img {
-    display: none;
-}
-
-#pancake {
-    background-color: yellow;
-    opacity: 0.7;
-    color: black;
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-}
-
-#pancake p{
-    text-align: center;
-    display: inline;
-}
-
-.sun {
-    left: 200px;
-    width: 5%;
-    padding: 10px;
-}
-
-.icon{
-    color: black;
-    display: inline;
-    font-size: xx-large;
-    text-align: center;
-}
-
-.park {
-    text-align: center;
-}
-
-.close-banner {
-    float: right;
-    margin-top: -6%;
-}
-
-.hero {
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.map {
-    width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.article-img {
-    width: 60%;
-    margin-left: 5%;
-}
-
-.social-icon {
-    display: none;
-}
-
-.selected {
-    background-color: #145374;
-}
-
-.banner {
-    width: 100%;
-}
-
-@media only screen and (min-width:42em) { /*medium*/
+    /*medium*/
     @media only screen and (min-width:42em) {
         .top-of-nav {
             padding-left: 10%;
         }
+
         nav {
             max-width: 100%;
             padding-left: 10%;
         }
-    
+
         main {
             padding-left: 10%;
             padding-right: 10%;
         }
-    
+
         .navigation {
             grid-template-columns: repeat(7, auto);
         }
-    
+
         .navigation li {
             display: block;
         }
-    
+
         .navigation a:link,
         .navigation a:visited,
         .navigation a:hover,
@@ -306,154 +188,43 @@ nav {
         .navigation a:focus {
             text-align: center;
         }
-    
+
         .navigation li:first-child {
             display: none;
         }
-    
+
         footer p {
             text-align: right;
         }
-    
-        table {
-            font-size: small;
-            text-align: center;
-            border: none;
-            padding: 0;
-        }
-    
-        .five-day-heading{
-            background-color:#d6e2e9;
-            text-align: center;
-        }
-    
-        .contact {
-            margin-left: -13%;
-            margin-right: -13%;
-            margin-bottom: -7%;
-        }
-    
-        .remove-padding {
-            padding-bottom: 8%;
-        }
-    
-        .five-day-forecast {
-            background-color: #e8e8e8;
-            text-align: center;
-            padding: 0;
-            border: 2px solid black;
-        }
-    
-        .five-day-forecast img {
-            width: 100%;
-            display: block;
-        }
-        
-        .article {
-            margin-top: 0%;
-        }
-        
-        .article-img {
-            width: 60%;
-            margin-left: 3%;
-    
-        }
-    
-        .social-icon {
-            float: right;
-            margin-top: 2%;
-            padding: 1%;
-            display: inline;
-            width: 5%;
-           
-        }
-    
-        .contact p{
-            text-align: right;
-            display: block;
-            margin-right: 7%;
-        }
-    
-        .map {
-            width: 40%;
-            float: left;
-            margin-top: -15%;
-            margin-left: 7%;
-        }
-    
-        .media {
-            margin-right: 3%;
-        }
-    
-        footer p{
+
+
+        footer p {
             text-align: left;
             margin: 1px;
         }
-        
+
         th {
             padding: 3%
         }
-        
+
     }
 }
 
-@media only screen and (min-width:78em) { /*Large*/
+@media only screen and (min-width:78em) {
+    /*Large*/
 
-    @media only screen and (min-width:78em){
+    @media only screen and (min-width:78em) {
 
         .navigation {
             width: 800px;
-            margin:16px auto;
+            margin: 16px auto;
         }
-      
-        .weather-summary {
-          background-color: #e8e8e8;
-          opacity: 0.8;
-          margin: 10px;
-          width: 22%;
-          position: absolute;
-          top: 60%;
-          left: 15%;
-          border: none;
-          }
-      
-        th {
-          padding: 2%;
-          margin: 0;
+
+
+
+        footer p {
+            text-align: center;
         }
-      
-        .map {
-          width: 30%;
-          margin-top: -8%;
-          margin-left: 10%;
-        }
-      
-        .article p{
-          
-          display: inline-block;
-          width: 60%
-        }
-        .article-img {
-          width: 30%;
-          display: inline;
-      
-        }
-        .contact p{
-          margin-right: 10%;
-        }
-      
-        .media {
-          margin-right: 8%;
-        }
-      
-        .social-icon{
-          width: 3%;
-          margin-top: 0;
-        }
-      
-        footer p{
-          text-align: center;
-        }
-      }
+    }
 
 }
