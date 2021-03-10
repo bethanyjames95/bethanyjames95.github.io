@@ -8,6 +8,10 @@ main {
     max-width: 100%;
 }
 
+.slogan {
+    text-align: left;
+}
+
 body {
     background-color: #d6e2e9;
     margin: 0px;
@@ -304,7 +308,10 @@ article {
 
 /*Large*/
 @media only screen and (min-width:78em) {
-
+    .cities {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     .navigation {
         width: 800px;
         margin: 16px auto;
