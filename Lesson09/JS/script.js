@@ -44,26 +44,7 @@ window:addEventListener('load', ()=>{
     document.getElementById("date").textContent = fulldate;
     document.getElementById("copy").textContent = dYear;
 
-    if ( dName == 'Friday'){
-        document.getElementById('pancake').style.display = "block";
-    }   
-    else {
-        document.getElementById('pancake').style.display = "none";
-    }
-
 });
-
-WebFont.load({
-    google: { 
-        families: ['Montserrat', 'Padauk', 'Quicksand']
-    }
-}); 
-
-
-
-
-
-
 
 
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
@@ -74,99 +55,89 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         const towns = jsonObject['towns'];
-        /**************************************************************/
-        let prestoncard = document.createElement('section');
-        prestoncard.classList.add('classprestontext');
-
-        let prestonname = document.createElement('h2');
-        let prestonmotto = document.createElement('h3');
-        let prestonyear = document.createElement('p');
-        let prestonpop = document.createElement('p');
-        let prestonrain = document.createElement('p');
-
-        prestonname.textContent = towns[5].name;
-        prestonmotto.textContent = towns[5].motto;
-        prestonyear.textContent = "Founded in: " + towns[5].yearFounded;
-        prestonpop.textContent = "Population: " + towns[5].currentPopulation;
-        prestonrain.textContent = "AVG Annual Rain Fall: " + towns[5].averageRainfall;
         
-        prestoncard.appendChild(prestonname);
-        prestoncard.appendChild(prestonmotto);
-        prestoncard.appendChild(prestonyear);
-        prestoncard.appendChild(prestonpop);
-        prestoncard.appendChild(prestonrain);
-
-        document.querySelector('div.prestoncard').appendChild(prestoncard);
-
-        let prestonphotosection = document.createElement('section');
-        prestonphotosection.classList.add('classprestonphoto');
-
-        let prestonphoto = document.createElement('img');
-        prestonphoto.setAttribute('src', 'images/' + towns[5].photo);
-        prestonphotosection.appendChild(prestonphoto);
-        document.querySelector('div.prestoncard').appendChild(prestonphotosection);
-
-        /**************************************************************/
-        let sodaspringscard = document.createElement('section');
-        sodaspringscard.classList.add('classsodaspringstext');
-
-        let sodaspringsname = document.createElement('h2');
-        let sodaspringsmotto = document.createElement('h3');
-        let sodaspringsyear = document.createElement('p');
-        let sodaspringspop = document.createElement('p');
-        let sodaspringsrain = document.createElement('p');
-
-        sodaspringsname.textContent = towns[6].name;
-        sodaspringsmotto.textContent = towns[6].motto;
-        sodaspringsyear.textContent = "Founded in: " + towns[6].yearFounded;
-        sodaspringspop.textContent = "Population: " + towns[6].currentPopulation;
-        sodaspringsrain.textContent = "AVG Annual Rain Fall: " + towns[6].averageRainfall;
+        /*PRESTON*/
         
-        sodaspringscard.appendChild(sodaspringsname);
-        sodaspringscard.appendChild(sodaspringsmotto);
-        sodaspringscard.appendChild(sodaspringsyear);
-        sodaspringscard.appendChild(sodaspringspop);
-        sodaspringscard.appendChild(sodaspringsrain);
+        let preston = document.createElement('section');
+        preston.classList.add("Preston");
 
-        document.querySelector('div.sodaspringscard').appendChild(sodaspringscard);
+        let prestonName = document.createElement('h2');
+        let prestonMotto = document.createElement("h3");
+        let prestonYear = document.createElement('p');
+        let prestonPopulation = document.createElement("p");
+        let prestonRain = document.createElement("p");
+        let prestonPhoto = document.createElement('img');
+        prestonPhoto.setAttribute('src', "img/1.jpg");
 
-        let sodaspringsphotosection = document.createElement('section');
-        sodaspringsphotosection.classList.add('classsodaspringsphoto');
+        prestonName.textContent =  towns[5].name;
+        prestonMotto.textContent = towns[5].motto;
+        prestonYear.textContent = "Founded: " + towns[5].yearFounded;
+        prestonPopulation.textContent = "Population: " + towns[5].currentPopulation;
+        prestonRain.textContent = "Average Annual Rainfall: " + towns[5].averageRainfall;
 
-        let sodaspringsphoto = document.createElement('img');
-        sodaspringsphoto.setAttribute('src', 'images/' + towns[6].photo);
-        sodaspringsphotosection.appendChild(sodaspringsphoto);
-        document.querySelector('div.sodaspringscard').appendChild(sodaspringsphotosection);
+        preston.appendChild(prestonName);
+        preston.appendChild(prestonMotto);
+        preston.appendChild(prestonYear);
+        preston.appendChild(prestonPopulation);
+        preston.appendChild(prestonRain);
+        preston.appendChild(prestonPhoto);
 
-        /**************************************************************/
-        let fishhavencard = document.createElement('section');
-        fishhavencard.classList.add('classfishhaventext');
+        document.querySelector('div.preston').appendChild(preston);
 
-        let fishhavenname = document.createElement('h2');
-        let fishhavenmotto = document.createElement('h3');
-        let fishhavenyear = document.createElement('p');
-        let fishhavenpop = document.createElement('p');
-        let fishhavenrain = document.createElement('p');
-
-        fishhavenname.textContent = towns[1].name;
-        fishhavenmotto.textContent = towns[1].motto;
-        fishhavenyear.textContent = "Founded in: " + towns[1].yearFounded;
-        fishhavenpop.textContent = "Population: " + towns[1].currentPopulation;
-        fishhavenrain.textContent = "AVG Annual Rain Fall: " + towns[1].averageRainfall;
+        /*SodaSprings*/
         
-        fishhavencard.appendChild(fishhavenname);
-        fishhavencard.appendChild(fishhavenmotto);
-        fishhavencard.appendChild(fishhavenyear);
-        fishhavencard.appendChild(fishhavenpop);
-        fishhavencard.appendChild(fishhavenrain);
+        let sodaSprings = document.createElement('section');
+        sodaSprings.classList.add("sodaSprings");
+        
+        let sodaSpringsName = document.createElement('h2');
+        let sodaSpringsMotto = document.createElement("h3");
+        let sodaSpringsYear = document.createElement('p');
+        let sodaSpringsPopulation = document.createElement("p");
+        let sodaSpringsRain = document.createElement("p");
+        let sodaSpringsPhoto = document.createElement('img');
+        sodaSpringsPhoto.setAttribute('src', "img/2.jpg");
+        
+        sodaSpringsName.textContent =  towns[6].name;
+        sodaSpringsMotto.textContent = towns[6].motto;
+        sodaSpringsYear.textContent = "Founded: " + towns[6].yearFounded;
+        sodaSpringsPopulation.textContent = "Population: " + towns[6].currentPopulation;
+        sodaSpringsRain.textContent = "Average Annual Rainfall: " + towns[6].averageRainfall;
+        
+        sodaSprings.appendChild(sodaSpringsName);
+        sodaSprings.appendChild(sodaSpringsMotto);
+        sodaSprings.appendChild(sodaSpringsYear);
+        sodaSprings.appendChild(sodaSpringsPopulation);
+        sodaSprings.appendChild(sodaSpringsRain);
+        sodaSprings.appendChild(sodaSpringsPhoto);
+        
+        document.querySelector('div.sodaSpringsDiv').appendChild(sodaSprings);
 
-        document.querySelector('div.fishhavencard').appendChild(fishhavencard);
+        /*fishHaven*/
+        
+        let fishHaven = document.createElement('section');
+        fishHaven.classList.add("FishHaven");
+                
+        let fishHavenName = document.createElement('h2');
+        let fishHavenMotto = document.createElement("h3");
+        let fishHavenYear = document.createElement('p');
+        let fishHavenPopulation = document.createElement("p");
+        let fishHavenRain = document.createElement("p");
+        let fishHavenPhoto = document.createElement('img');
+        fishHavenPhoto.setAttribute('src', "img/3.jpg");
+                
+        fishHavenName.textContent =  towns[1].name;
+        fishHavenMotto.textContent = towns[1].motto;
+        fishHavenYear.textContent = "Founded: " + towns[1].yearFounded;
+        fishHavenPopulation.textContent = "Population: " + towns[1].currentPopulation;
+        fishHavenRain.textContent = "Average Annual Rainfall: " + towns[1].averageRainfall;
+                
+        fishHaven.appendChild(fishHavenName);
+        fishHaven.appendChild(fishHavenMotto);
+        fishHaven.appendChild(fishHavenYear);
+        fishHaven.appendChild(fishHavenPopulation);
+        fishHaven.appendChild(fishHavenRain);
+        fishHaven.appendChild(fishHavenPhoto);
+                
+        document.querySelector('div.fishHaven').appendChild(fishHaven);
 
-        let fishhavenphotosection = document.createElement('section');
-        fishhavenphotosection.classList.add('classfishhavenphoto');
-
-        let fishhavenphoto = document.createElement('img');
-        fishhavenphoto.setAttribute('src', 'images/' + towns[1].photo);
-        fishhavenphotosection.appendChild(fishhavenphoto);
-        document.querySelector('div.fishhavencard').appendChild(fishhavenphotosection);
     });
