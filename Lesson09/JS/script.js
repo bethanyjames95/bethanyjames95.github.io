@@ -68,7 +68,7 @@ fetch(requestURL)
         let prestonPopulation = document.createElement("p");
         let prestonRain = document.createElement("p");
         let prestonPhoto = document.createElement('img');
-        prestonPhoto.setAttribute('src', "img/1.jpg");
+        prestonPhoto.setAttribute('src', "/Lesson09/IMG/1.jpg");
 
         prestonName.textContent =  towns[6].name;
         prestonMotto.textContent = towns[6].motto;
@@ -96,7 +96,7 @@ fetch(requestURL)
         let sodaSpringsPopulation = document.createElement("p");
         let sodaSpringsRain = document.createElement("p");
         let sodaSpringsPhoto = document.createElement('img');
-        sodaSpringsPhoto.setAttribute('src', "img/2.jpg");
+        sodaSpringsPhoto.setAttribute('src', "/Lesson09/IMG/2.jpg");
         
         sodaSpringsName.textContent =  towns[0].name;
         sodaSpringsMotto.textContent = towns[0].motto;
@@ -124,7 +124,7 @@ fetch(requestURL)
         let fishHavenPopulation = document.createElement("p");
         let fishHavenRain = document.createElement("p");
         let fishHavenPhoto = document.createElement('img');
-        fishHavenPhoto.setAttribute('src', "img/3.jpg");
+        fishHavenPhoto.setAttribute('src', "/Lesson09/IMG/3.jpg");
                 
         fishHavenName.textContent =  towns[2].name;
         fishHavenMotto.textContent = towns[2].motto;
