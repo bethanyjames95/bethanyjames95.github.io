@@ -343,6 +343,11 @@ nav {
         padding: 10%;
     }
 
+    .map {
+        width: 50%;
+        margin-left: 0%;
+        padding: 0%;
+    }
 }
 
 
@@ -369,12 +374,6 @@ nav {
         padding-top: 5%;
         padding-bottom: 5%;
         max-width: 100%;
-    }
-
-    .map {
-        width: 30%;
-        margin-top: -8%;
-        margin-left: 10%;
     }
 
     .contact p {
