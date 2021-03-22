@@ -9,6 +9,9 @@ body {
 section {
     padding: 20px;
 }
+.selected {
+    background-color: #145374;
+}
 
 header {
     display: block;
