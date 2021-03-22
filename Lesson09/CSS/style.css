@@ -19,6 +19,10 @@ section {
     padding: 20px;
 }
 
+.selected {
+    background-color: #145374;
+}
+
 header {
     display: block;
     padding: 0%;
@@ -48,7 +52,10 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
-    padding: 2px;
+}
+
+.welcome{
+    padding-bottom: 5%;
 }
 
 h3 {
@@ -58,10 +65,11 @@ h3 {
     text-align: center;
     font-size: xx-small;
     padding-bottom: 5%;
+    padding-top: -10%;
 }
 
 p {
-    text-align: center;
+    text-align: left;
     letter-spacing: 3px;
     font-size: 16px;
 }
@@ -71,6 +79,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding: 10%;
 }
 
 footer {
@@ -105,6 +114,9 @@ nav {
     background-color: #00303f;
 }
 
+.map {
+    padding: 3%;
+}
 
 .logo {
     width: 90px;
@@ -184,23 +196,25 @@ nav {
     display: none;
 }
 
-.sodaSprings img,
-.preston img,
-.fishHaven img {
-    width: 80%;
-}
-
-.sodaSprings,
+.sodaSpringsDiv,
 .preston,
 .fishHaven {
     background-color: white;
-    margin: 0%;
+    margin-left: auto;
+    margin-right: auto;
     padding: 0%;
-    border: black solid 4px;
+    box-shadow: 0px 0px 10px 3px grey;
+    border-radius: 10px;
+}
+
+.towns p{
+    text-align: center;
 }
 
 .towns div{
+    width: 80%;
     margin: 10%;
+    margin-top: 1%;
 }
 
 
@@ -242,15 +256,6 @@ nav {
         padding-left: 10%;
     }
 
-    main {
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        padding-top: 5%;
-        padding-bottom: 5%;
-        max-width: 100%;
-    }
-
     .navigation {
         grid-template-columns: repeat(7, auto);
     }
@@ -279,40 +284,75 @@ nav {
         text-align: left;
         margin: 1px;
     }
+    
+    .prestonTown,
+    .FishHaven {
+        background-color: white;
+        display: inline-grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr;
+        margin: 5%;
+        padding: 5%;
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .sodaSprings{
+        background-color: white;
+        display: inline-grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 5%;
+        padding: 5%;
+        max-width: 100%;
+        align-items: center;
+    }
+
+    .prestonTown h3{
+        padding-top: -15%;
+    }
+
+    .prestonTown h2,
+    .prestonTown h3,
+    .prestonTown p,
+    .FishHaven h2,
+    .FishHaven h3,
+    .FishHaven p {
+        grid-column: 1;
+    }
 
     .sodaSprings h2,
     .sodaSprings h3,
     .sodaSprings p {
-        grid-column: 1;
-    }
-
-    .text-odd {
         grid-column: 2;
     }
 
-    .sodaSprings img {
-        width: 30%;
+    .sodaSprings img{
+        grid-column: 1;
+        grid-row: 1/6;
+        width: 100%;
+        padding: 10%;
+        margin-left: -18%;
+    }
+
+    .prestonTown img,
+    .FishHaven img {
         grid-column: 2;
         grid-row: 1/6;
-        margin: 0%;
+        width: 100%;
+        padding: 10%;
     }
 
-    .sodaSprings {
-        background-color: white;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: 5%;
-        padding: 5%;
-    }
 }
 
 
 /*Large*/
 @media only screen and (min-width:78em) {
-    .cities {
+    .towns {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
     .navigation {
         width: 800px;
         margin: 16px auto;
@@ -350,10 +390,31 @@ nav {
         margin-top: 0;
     }
 
-    img {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+    .sodaSprings img,
+    .prestonTown img,
+    .FishHaven img {
+        width: 130%;
+        padding: 1%;
+        margin: 5%;
+        box-shadow: 0px 0px 10px 3px grey;
+    }
+
+    .sodaSprings img {
+        margin: 2%;
+    }
+
+    .sodaSprings,
+    .prestonTown,
+    .FishHaven {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        margin: 0%;
+        border-radius: 25px;
+
+    }
+
+    h2{
+        font-size: xx-large;
     }
 }

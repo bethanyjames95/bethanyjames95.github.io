@@ -47,6 +47,7 @@ window:addEventListener('load', ()=>{
 });
 
 
+
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(requestURL)
@@ -59,7 +60,7 @@ fetch(requestURL)
         /*PRESTON*/
         
         let preston = document.createElement('section');
-        preston.classList.add("Preston");
+        preston.classList.add("prestonTown");
 
         let prestonName = document.createElement('h2');
         let prestonMotto = document.createElement("h3");
@@ -69,11 +70,11 @@ fetch(requestURL)
         let prestonPhoto = document.createElement('img');
         prestonPhoto.setAttribute('src', "img/1.jpg");
 
-        prestonName.textContent =  towns[5].name;
-        prestonMotto.textContent = towns[5].motto;
-        prestonYear.textContent = "Founded: " + towns[5].yearFounded;
-        prestonPopulation.textContent = "Population: " + towns[5].currentPopulation;
-        prestonRain.textContent = "Average Annual Rainfall: " + towns[5].averageRainfall;
+        prestonName.textContent =  towns[6].name;
+        prestonMotto.textContent = towns[6].motto;
+        prestonYear.textContent = "Founded: " + towns[6].yearFounded;
+        prestonPopulation.textContent = "Population: " + towns[6].currentPopulation;
+        prestonRain.textContent = "Average Annual Rainfall: " + towns[6].averageRainfall;
 
         preston.appendChild(prestonName);
         preston.appendChild(prestonMotto);
@@ -97,11 +98,11 @@ fetch(requestURL)
         let sodaSpringsPhoto = document.createElement('img');
         sodaSpringsPhoto.setAttribute('src', "img/2.jpg");
         
-        sodaSpringsName.textContent =  towns[6].name;
-        sodaSpringsMotto.textContent = towns[6].motto;
-        sodaSpringsYear.textContent = "Founded: " + towns[6].yearFounded;
-        sodaSpringsPopulation.textContent = "Population: " + towns[6].currentPopulation;
-        sodaSpringsRain.textContent = "Average Annual Rainfall: " + towns[6].averageRainfall;
+        sodaSpringsName.textContent =  towns[0].name;
+        sodaSpringsMotto.textContent = towns[0].motto;
+        sodaSpringsYear.textContent = "Founded: " + towns[0].yearFounded;
+        sodaSpringsPopulation.textContent = "Population: " + towns[0].currentPopulation;
+        sodaSpringsRain.textContent = "Average Annual Rainfall: " + towns[0].averageRainfall;
         
         sodaSprings.appendChild(sodaSpringsName);
         sodaSprings.appendChild(sodaSpringsMotto);
@@ -125,11 +126,11 @@ fetch(requestURL)
         let fishHavenPhoto = document.createElement('img');
         fishHavenPhoto.setAttribute('src', "img/3.jpg");
                 
-        fishHavenName.textContent =  towns[1].name;
-        fishHavenMotto.textContent = towns[1].motto;
-        fishHavenYear.textContent = "Founded: " + towns[1].yearFounded;
-        fishHavenPopulation.textContent = "Population: " + towns[1].currentPopulation;
-        fishHavenRain.textContent = "Average Annual Rainfall: " + towns[1].averageRainfall;
+        fishHavenName.textContent =  towns[2].name;
+        fishHavenMotto.textContent = towns[2].motto;
+        fishHavenYear.textContent = "Founded: " + towns[2].yearFounded;
+        fishHavenPopulation.textContent = "Population: " + towns[2].currentPopulation;
+        fishHavenRain.textContent = "Average Annual Rainfall: " + towns[2].averageRainfall;
                 
         fishHaven.appendChild(fishHavenName);
         fishHaven.appendChild(fishHavenMotto);
