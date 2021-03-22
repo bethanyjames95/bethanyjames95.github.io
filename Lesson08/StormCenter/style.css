@@ -41,6 +41,7 @@ h2 {
     text-align: center;
     padding: 6%;
     font-size: xx-large;
+    margin-bottom: -10%;
 }
 
 h3 {
@@ -164,6 +165,7 @@ form {
     margin-right: auto;
     margin-bottom: 10%;
     margin-top: 10%;
+    box-shadow: 10px 10px 10px 5px gray;
 }
 
 input,
@@ -186,6 +188,11 @@ select {
     margin-right: auto;
 }
 
+.stormSeverity,
+.stormSeverityHead{
+    color: white;
+    margin: 5%;
+}
 
 .submitButton {
     width: 20%;
@@ -233,6 +240,10 @@ select {
         margin: 1px;
     }
 
+    form {
+        width: 60%;
+    }
+
 }
 
 
@@ -249,6 +260,9 @@ select {
     }
 
 
+    form {
+        width: 40%;
+    }
 
 
     img {
